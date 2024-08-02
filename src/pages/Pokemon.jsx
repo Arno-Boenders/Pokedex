@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
+import List from "../components/List";
 
 export default function Pokemon() {
   return (
-    <div>Pokemon</div>
-  )
+    <div>
+      <h1>Pokemon</h1>
+      <List />
+    </div>
+  );
 }
